@@ -7,8 +7,8 @@ body{
 .intro{
     background: linear-gradient(to right, #000000, #3F3F3F);; 
     margin: 0;
-    padding-top: 140px;
-    padding-bottom: 140px;
+    width: 100%;
+    padding-top: 90px;
     text-align: left;
 }
 
@@ -89,6 +89,12 @@ h3{
     color: #D7FEFA;
 }
 
+.txtct{
+    color: #D7FEFA;
+    text-align: left;
+    padding-left: 150px;
+}
+
 .txtDes{
     font-size: 1.5rem;
     color: #4b4b4b;
@@ -127,23 +133,23 @@ a{
 /*Images*/
 
 .firstP{
-    position: absolute;
-    right: 108px;
-    bottom: 270px;
+    position: relative;
+    left: 750px;
+    bottom: 330px;
     z-index: 1;
 }
 
 .me{
     position: absolute;
     right: 0px;
-    top: 140px;
+    bottom: 0px;
     z-index: 2;
 }
 
 .secondP{
-    position: absolute;
-    right: 80px;
-    top: 150px;
+    position: relative;
+    left: 400px;
+    bottom: 270px;
     z-index: 1;
 }
 
@@ -247,4 +253,5 @@ a{
     padding-left: 80px;
     padding-right: 80px;
 }
-    
+
+   
