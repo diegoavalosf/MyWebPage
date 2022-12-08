@@ -1,0 +1,250 @@
+body{
+    margin: 0%;
+    font-family: 'Merriweather', serif;
+}
+
+/*Home*/
+.intro{
+    background: linear-gradient(to right, #000000, #3F3F3F);; 
+    margin: 0;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    text-align: left;
+}
+
+.profile{  
+    padding: 100px;
+}
+
+.prof{  
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+    border-radius: 100px
+}
+
+/*Soft skills/Hard skills*/
+.soft-skills{
+    margin: 50px;
+    box-align: center;
+    align-items: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.hard-skills{
+    padding: 40px;
+    background: linear-gradient(to right, #FFFFFF, #f1fffe);;
+}
+
+.soft-sk{
+    padding: 40px;
+    background: linear-gradient(to right, #000000, #3F3F3F);;
+}
+
+.portafolio{
+    padding: 40px;
+    background: linear-gradient(to right, #FFFFFF, #f1fffe);;
+}
+
+.soft-box{
+    text-align: center;
+    width: 25%;
+    flex:1 1 auto;
+}
+
+.soft-img{
+    border-radius: 500px
+}
+
+/*fuentes*/
+h1{
+    font-size: 5.625rem; /* 1em = 16px // 1rem = 16px relative */
+    margin: 50px auto 0 auto;
+    font-family: 'Prompt', sans-serif;
+    color: #D9D9D9;
+    padding-left: 150px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    text-align: center;
+}
+
+.subTextIntro{
+    text-align: left;
+    padding-left: 150px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    text-align: center;
+}
+
+.txtsk{
+    color: #D7FEFA;
+}
+
+.txtDes{
+    font-size: 1.5rem;
+    color: #4b4b4b;
+    font-weight: normal;
+}
+
+a{
+    color: #11999E;
+}
+
+/*Acomodar*/
+
+.skill-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.webDev{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.programming{
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+}
+
+/*Images*/
+
+.firstP{
+    position: absolute;
+    right: 108px;
+    bottom: 270px;
+    z-index: 1;
+}
+
+.me{
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    z-index: 2;
+}
+
+.secondP{
+    position: absolute;
+    right: 80px;
+    top: 150px;
+    z-index: 1;
+}
+
+/*Navigation Bar*/
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 10;
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 10;
+}
+  
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #66BFBF;
+    color: white;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+  
+/*contact Bar*/
+
+#cont {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 3;
+}
+
+#cont a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 3;
+}
+
+#cont a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/*Description/Portafolio*/
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.back-img{
+    filter: blur(3.5px);
+}
+
+.container .content {
+    position: absolute; 
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    color: #f1f1f1; 
+    width: 100% auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.container .contento {
+    position: absolute; 
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    color: #f1f1f1; 
+    width: 100% auto;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+    
